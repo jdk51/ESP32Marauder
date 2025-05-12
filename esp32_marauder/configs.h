@@ -157,10 +157,12 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    #define HAS_SD true
+    #define USE_SD true
     #define HAS_TEMP_SENSOR
-    #define HAS_GPS
+    #define HAS_GPS true
+    #define GPS_RX 16
+    #define GPS_TX 17
   #endif
 
   #if defined(MARAUDER_V6) || defined(MARAUDER_V6_1)
