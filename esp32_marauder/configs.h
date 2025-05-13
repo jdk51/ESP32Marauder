@@ -161,8 +161,8 @@
     #define USE_SD true
     #define HAS_TEMP_SENSOR
     #define HAS_GPS true
-    #define GPS_RX 16
-    #define GPS_TX 17
+    #define GPS_RX 13
+    #define GPS_TX 4
   #endif
 
   #if defined(MARAUDER_V6) || defined(MARAUDER_V6_1)
@@ -1653,8 +1653,8 @@
       #define GPS_RX 22
     #elif defined(MARAUDER_V4)
       #define GPS_SERIAL_INDEX 2
-      #define GPS_TX 17
-      #define GPS_RX 16
+      #define GPS_TX 4
+      #define GPS_RX 13
     #elif defined(MARAUDER_KIT)
       #define GPS_SERIAL_INDEX 2
       #define GPS_TX 4
